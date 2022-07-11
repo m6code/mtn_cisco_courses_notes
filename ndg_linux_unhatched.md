@@ -43,9 +43,46 @@
             
     drwxr-x--- 2 root   adm    4096 Dec 20  2017 apache2 
     ```
-    ![ls with -l argument details](./ndg_linux_unhatched/ls_command.png)
+    * ![ls with -l argument details](./ndg_linux_unhatched/ls_command.png)
 
 #### Sorting With ls
 * `-t` option will sort the files by timestamp.
 * `-S` option will sort the files by size.
 * `-r` option will sort the files in reverse order.
+
+### Section 6 - Administrative Access.
+* Logging in as the root user provides administrative access, allowing for the execution of some of the privileged commands. 
+* The `su` command allows you to temporarily act as a different user. It does this by creating a new shell. The shell is simply a text input console that lets you type in commands. By default, if a user account is not specified, the `su` command will open a new shell as the root user, which provides administrative privileges.
+* The `sudo` command allows a user to execute a command as another user without creating a new shell. Instead, to execute a command with administrative privileges, use it as an argument to the `sudo` command. Like the `su` command, the sudo command assumes by default the root user account should be used to execute commands.
+
+### Section 7 - Permissions
+* Permissions determine the ways different users can interact with a file or directory. When listing a file with the ls -l command, the output includes permission information.
+* ![File Permissions Info](./ndg_linux_unhatched/permissions.png)
+
+### Section 8 - Changing File Permissions
+* The `chmod` command is used to change the permissions of a file or directory. Only the root user or the user who owns the file is able to change the permissions of a file.
+* Permissions used to be referred to as modes of access, so the command chmod really means change the modes of access.
+* There are two techniques for changing permissions with the chmod command: symbolic and octal. The symbolic method is good for changing one set of permissions at a time. The octal or numeric method requires knowledge of the octal value of each of the permissions and requires all three sets of permissions (user, group, other) to be specified every time. 
+#### The Symbolic Method.
+`chmod [<SET><ACTION><PERMISSION>]... FILE`
+* ![Changing File Permission Info](./ndg_linux_unhatched/change_permission.png)
+
+### Section 9 - Changing File Ownership
+* Initially, the owner of a file is the user who creates it. The chown command is used to change the ownership of files and directories. Changing the user owner requires administrative access. A regular user cannot use this command to change the user owner of a file, even to give the ownership of one of their own files to another user. However, the chown command also permits changing group ownership, which can be accomplished by either root or the owner of the file.
+* basic syntax to change ownership `chown [OPTIONS] [OWNER] FILE` e.g `sudo chown root hello.sh`
+
+### Section 10 - Viewing Files Content
+* The `cat` command, which stands for “concatenate”, is often used to quickly view the contents of small files. Basic syntax `cat [Options] [File]`. e.g `cat file.txt`.
+* pager commands include `less` and `more` they can be used as better alternative to cat for viewing text file.
+* The `head` commmand is use to view the top lines of a file. Basic syntax `head [OPTIONS] [FILE]` e.g `head file.txt`.
+* The `tail` command is used to view the bottom lines of a file. Basic syntax `tail [OPTION] [FILE]` e.g `tail file.txt`.
+
+### Section 11 - Copying Files
+* The `cp` command is used to copy files. Similar to the mv command, it requires at least two arguments: a source and a destination. Basic syntax `cp [OPTION] SOURCE DESTINATION`
+* The `dd` command is a utility for copying files or entire partitions at the bit level. Syntax `dd [OPTIONS] OPERAND`
+    * It can be used to clone or delete (wipe) entire disks or partitions.
+    * It can be used to copy raw data to removable devices, such as USB drives and CDROMs.
+    * It can backup and restore the MBR (Master Boot Record).
+    * It can be used to create a file of a specific size that is filled with binary zeros, which can then be used as a swap file (virtual memory).
+
+### Section 12 - Moving Files
