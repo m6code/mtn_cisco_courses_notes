@@ -1,6 +1,6 @@
-# NDG Linux Unhatched Course
+# [NDG Linux Unhatched Course](https://www.netacad.com/courses/os-it/ndg-linux-unhatched)
 ### Info
-* Duration : 8 Hours
+* Duration : 8 Hours.
 
 ## Notes
 * Technical skills to analyze, process, protect, and transmit data are therefore also in high demand. Learning Linux can help you on the journey towards acquiring these skills
@@ -24,10 +24,11 @@
     would all do the same thing. 
 
 ### Section 3 - Printing Working Directory
-* In order to discover where you are currently located within the filesystem, the pwd command can be used. The pwd command prints the working directory, your current location within the filesystem:
+* In order to discover where you are currently located within the filesystem, the pwd command can be used. The `pwd` command prints the working directory, your current location within the filesystem:
 ### Section 4 - Changing Directories
 * Files are used to store data such as text, graphics and programs. Directories are a type of file used to store other files–they provide a hierarchical organizational structure. 
-* To navigate the filesystem structure, use the cd (change directory) command to change directories. basic structure `cd [options] [path]`
+* To navigate the filesystem structure, use the cd (change directory) command to change directories. 
+* Syntax: `cd [options] [path]`
 * the top directory of the linux system (root directory)is represented by the `/` (forward-slash) character while the home (user) directory is represented by `~` (tilda) character
 * There are two types of parts 
     1. Absolute paths : allows you to specify the exact location of a directory. It always starts at the root directory, therefore it always begins with the / character. e.g `cd /home/user/Desktop` is an absolute path.
@@ -36,7 +37,8 @@
 * Regardless of which directory you are in, the `.` character always represents your current directory.
 
 ### Section 5 - Listing Files
-* The ls command is used to list the contents of a directory. Basic syntax is `ls [OPTIONS] [FILE]`. By default, when the ls command is used with no options or arguments, it will list the files in the current directory.
+* The ls command is used to list the contents of a directory. 
+* Syntax: `ls [OPTIONS] [FILE]`. By default, when the ls command is used with no options or arguments, it will list the files in the current directory.
 * To learn the details about a file, such as the type of file, the permissions, ownerships or the timestamp, perform a long listing using the `-l ` option to the `ls `command. e.g `ls -l /var/log`
     ```
     -rw-r--r-- 1 root   root  18047 Dec 20  2017 alternatives.log       
@@ -56,7 +58,7 @@
 * The `sudo` command allows a user to execute a command as another user without creating a new shell. Instead, to execute a command with administrative privileges, use it as an argument to the `sudo` command. Like the `su` command, the sudo command assumes by default the root user account should be used to execute commands.
 
 ### Section 7 - Permissions
-* Permissions determine the ways different users can interact with a file or directory. When listing a file with the ls -l command, the output includes permission information.
+* Permissions determine the ways different users can interact with a file or directory. When listing a file with the `ls -l` command, the output includes permission information.
 * ![File Permissions Info](./ndg_linux_unhatched/permissions.png)
 
 ### Section 8 - Changing File Permissions
@@ -69,16 +71,19 @@
 
 ### Section 9 - Changing File Ownership
 * Initially, the owner of a file is the user who creates it. The chown command is used to change the ownership of files and directories. Changing the user owner requires administrative access. A regular user cannot use this command to change the user owner of a file, even to give the ownership of one of their own files to another user. However, the chown command also permits changing group ownership, which can be accomplished by either root or the owner of the file.
-* basic syntax to change ownership `chown [OPTIONS] [OWNER] FILE` e.g `sudo chown root hello.sh`
+* Syntax to change ownership `chown [OPTIONS] [OWNER] FILE` e.g `sudo chown root hello.sh`
 
 ### Section 10 - Viewing Files Content
 * The `cat` command, which stands for “concatenate”, is often used to quickly view the contents of small files. Basic syntax `cat [Options] [File]`. e.g `cat file.txt`.
 * pager commands include `less` and `more` they can be used as better alternative to cat for viewing text file.
-* The `head` commmand is use to view the top lines of a file. Basic syntax `head [OPTIONS] [FILE]` e.g `head file.txt`.
-* The `tail` command is used to view the bottom lines of a file. Basic syntax `tail [OPTION] [FILE]` e.g `tail file.txt`.
+* The `head` commmand is use to view the top lines of a file. 
+* Syntax `head [OPTIONS] [FILE]` e.g `head file.txt`.
+* The `tail` command is used to view the bottom lines of a file.
+* Syntax `tail [OPTION] [FILE]` e.g `tail file.txt`.
 
 ### Section 11 - Copying Files
-* The `cp` command is used to copy files. Similar to the mv command, it requires at least two arguments: a source and a destination. Basic syntax `cp [OPTION] SOURCE DESTINATION`
+* The `cp` command is used to copy files. Similar to the mv command, it requires at least two arguments: a source and a destination. 
+* Syntax `cp [OPTION] SOURCE DESTINATION`
 * The `dd` command is a utility for copying files or entire partitions at the bit level. Syntax `dd [OPTIONS] OPERAND`
     * It can be used to clone or delete (wipe) entire disks or partitions.
     * It can be used to copy raw data to removable devices, such as USB drives and CDROMs.
@@ -86,3 +91,21 @@
     * It can be used to create a file of a specific size that is filled with binary zeros, which can then be used as a swap file (virtual memory).
 
 ### Section 12 - Moving Files
+* The `mv` command is used to move a file from one location in the filesystem to another. 
+* Syntax : `mv SOURCE DESTINATION`. The source or destination can be a file or folder.
+* The `mv` command requires at least two arguments. The first argument is the source, a path to the file to be moved. The second argument is the destination, a path to where the file will be moved to. 
+* The `mv` command is able to move multiple files, as long as the final argument provided to the command is the destination.
+* Moving a file within the same directory is an effective way to rename it.
+
+### Section 13 - Removing Files
+* The `rm` command is used to delete files and directories. It is important to keep in mind that deleted files and directories do not go into a "trash can", it is parmanently deleted.
+* Basic Syntax: `rm [OPTIONS] FILE`
+* Use `-r` or `-R` with the `rm` command to remove directories recursively.
+
+### Section 14 - Filtering Inputs
+* The `grep` command is a text filter that will search input and return lines which contain a match to a given pattern.
+* Syntax `grep [OPTIONS] PATTERN [FILE]`
+
+#### Regular Expressions
+* Regular expressions have two common forms: basic and extended. Most commands that use regular expressions can interpret basic regular expressions. However, extended regular expressions are not available for all commands and a command option is typically required for them to work correctly.
+* ![Regular Expressions Info](./ndg_linux_unhatched/regular_expressions.png)
