@@ -109,3 +109,43 @@
 #### Regular Expressions
 * Regular expressions have two common forms: basic and extended. Most commands that use regular expressions can interpret basic regular expressions. However, extended regular expressions are not available for all commands and a command option is typically required for them to work correctly.
 * ![Regular Expressions Info](./ndg_linux_unhatched/regular_expression.png)
+
+### Section 15 - Shutting Down
+* The `shutdown` command arranges for the system to be brought down in a safe way. All logged in users are notified that the system is going down and within the las five minutes leading up to shutdown, new logins are prevented.
+* Syntax: `shutdown [OPTIONS] TIME [MESSAGE]`
+
+### Section 16 - Network Configuration
+* The `ifconfig` command stands for interface configuration and is used to display network configuration infomation.
+* Syntax: ifconfig [OPTIONS]
+* The `iwconfig` command is similar to the ifconfig command, but it is dedicated to wireless network interfaces.
+* The `ping` command is used to verify connectivity between two computers. It does this by sending packets to another machine on a network. If the sender receives a response it should be possible to connect to that machine.
+
+### Section 17 - View Processes.
+* Running a command results in something called a process. In the Linux operating system, processes are executed with the privileges of the user who executes the command. This allows for processes to be limited to certain capabilities based upon the user identity.
+* Syntax: `ps [OPTIONS]` e.g `ps -e` shows all processes running not limited to the current user's process. `-f` option provide more information about the processes.
+
+### Section 18 - Package Management.
+* Package management is a system by which software can be installed, updated, queried or removed from a filesystem. 
+* At the lowest level of the Debian package management system is the `dpkg` command. This command can be tricky for novice Linux users, so the Advanced Package Tool, `apt-get` or just `apt`, a front-end program to the `dpkg` tool, makes management of packages even easier. *A front-end program is a program that users can see and interact with.*
+#### Installing Packages
+* Before installing a package, it is good practice to refresh the list of available packages using the `apt-get update` or `apt update` command. 
+* *Many of the package management commands require administrative access, so they will be prefaced with the `sudo` command*
+* To search for keywords within these packages, you can use the `apt-cache search [keyword]`
+* To install a package `sudo apt install [package]` or `sudo apt-get install package`
+* To update packages `sudo apt update` or `sudo apt-get update` then do a `sudo apt upgrade` if updates are available. do a `sudo apt dist-upgrade` of kernel/distribution updates are available.
+#### Removing Packages
+* The `apt-get` command is able to either `remove` or `purge` a package. The difference between the two is that purging deletes all package files, while removing deletes all but the configuration files for the package.
+* Syntax `sudo apt remove [package]` or `sudo apt-get remove [package]`
+* For purge `sudo apt purge [package]` or `sudo apt-get purge [package]`
+
+### Section 19 - Updateing User Passwords
+* The `passwd` command is used to update a user's password. Users can only change their own passwords, whereas the root can update the password for any user.
+* Syntax: `passwd [OPTIONS] [USER]`
+* Run: `passwd` to change password for the current user.
+* Run: `passwd -S user` to view status info about user password.
+
+    ![Password -S Info](./ndg_linux_unhatched/passwd_change_info.png)
+
+### Section 20 - Redirections
+
+
