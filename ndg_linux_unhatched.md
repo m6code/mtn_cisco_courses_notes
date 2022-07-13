@@ -108,4 +108,4 @@
 
 #### Regular Expressions
 * Regular expressions have two common forms: basic and extended. Most commands that use regular expressions can interpret basic regular expressions. However, extended regular expressions are not available for all commands and a command option is typically required for them to work correctly.
-* ![Regular Expressions Info](./ndg_linux_unhatched/regular_expressions.png)
+* ![Regular Expressions Info](./ndg_linux_unhatched/regular_expression.png)
