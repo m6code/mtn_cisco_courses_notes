@@ -15,7 +15,7 @@
 * Basic command syntax is `command [options…] [arguments…]`.
     * for example `ls -l Documents`. here ls = command; -l is an option, and Documents is the argument
 
-* Multipe Options can be given in any other and it would work the same for example 
+* Multipe Options can be given in any order and it would work the same for example 
     ```
     ls -l -r
     ls -rl 
