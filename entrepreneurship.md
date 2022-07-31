@@ -86,3 +86,30 @@
     1. Debt: The entrepreneur borrows money from a person or an institution, making a commitment to make regular payments on the loan, including paying interest. Interest is the fee that is charged by investors for the temporary use of their money. 
     2. Equity: The entrepreneur trades a percentage of ownership for money. The investor will receive a percentage of future profits.
 * Traditional Funding sources include: personal funds, family and friends, business loans from financial institutions, private investors, grants.
+* Non-Traditional Funding sources include: selling assets, borrowing against a home, barter agreements, finance companies.
+
+## Creating a Presentation
+### 1.3.1 Defining the Job Scope
+* A scope document is a written document that details what the service provider and customer can expect from each other during the course of the job. It establishes expectations from the beginning, so there is no misunderstanding between the service provider and the customer. 
+* A Scope document includes the following:
+    * Problem statement
+    * Deliverables
+    * Action plan
+    * Resource needs
+    * Price and payment terms.
+* *Describe the deliverables in as much detail as possible. Service providers should never assume that their customers are thinking the exact same thing that the service providers are!*
+* An action plan details the steps that must be taken to accomplish these objectives. It includes:
+    * *Task List:* A list of the specific tasks that must be accomplished and in what order they must be completed.
+    * *Responsibility assignment:* an explanation of who will complete the tasks.
+    * *Timeline:* a statement of when each task will be completed.
+
+* Steps in preparing price estimate:
+    1. Determine how long the project will take.
+    2. Calculate the labor costs by multiplying wages by the time estimate. For example, if Michael's wage is $25.00 per hour and the estimated time the project will take is 10 hours, then Michael's labor cost is $25 X 10 or $250.00.
+    3. Add the cost of any resources provided by the service provider. (This should be detailed in the resource needs.)
+    4. Total these costs.
+    5. Decide the amount of profit that will be charged.
+    6. Add the total costs and the profit together to determine the estimate.
+    7. Prepare the written estimate.
+
+### 1.3.2 Developing Presentation Skills.
