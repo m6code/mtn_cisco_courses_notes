@@ -113,3 +113,11 @@
     7. Prepare the written estimate.
 
 ### 1.3.2 Developing Presentation Skills.
+* A scope document is an excellent way to organize a written or in-person presentation. 
+* To minimize misunderstanding an entrepreneur must do the following:
+    - Think before speaking.
+    - Speak in a pleasant voice.
+    - Choose words effectively.
+    - Use I phrases.
+    - Get feedback and follow-up.
+    - Be discreet and truthful.
