@@ -75,6 +75,7 @@
     * Corporation: enters contracts, sue, get sued, pay taxes ... separately from its owners. It is an entity in it's own right and thus responsible for its debts and obligations. Usually more expensive and complicated.
     * Non-profit corporation: mission is to improve society in some way.
     * Cooperative: owned and controlled by the customers who uses its service.
+
 ## 1.2 Generating Income
 ### 1.2.1 Generating Income from Sales.
 * Marketing is the way a company tells its target market that it understands their needs and has a product available to meet those needs.
@@ -88,7 +89,7 @@
 * Traditional Funding sources include: personal funds, family and friends, business loans from financial institutions, private investors, grants.
 * Non-Traditional Funding sources include: selling assets, borrowing against a home, barter agreements, finance companies.
 
-## Creating a Presentation
+## 1.3 Creating a Presentation
 ### 1.3.1 Defining the Job Scope
 * A scope document is a written document that details what the service provider and customer can expect from each other during the course of the job. It establishes expectations from the beginning, so there is no misunderstanding between the service provider and the customer. 
 * A Scope document includes the following:
@@ -118,6 +119,28 @@
     - Think before speaking.
     - Speak in a pleasant voice.
     - Choose words effectively.
-    - Use I phrases.
+    - Use I phrases - hrases like "I believe," or "I don't understand" are much more effective than comments like "You are wrong," or "You are confusing me!" .
     - Get feedback and follow-up.
     - Be discreet and truthful.
+* One of the most important elements in communication is the ability to listen. Active listening skills include:
+    * Assume a confident and relaxed posture and maintain eye contact.
+    * Focus attention on what is being said. Do not try to anticipate what might be said next, or plan a response before the speaker is finished.
+    * Listen attentively. Let the speaker talk without interruption.
+    * Use receptive language. Make comments like, "Please, go on," and "I see your point," to show interest in what the speaker is saying.
+    * Ask occasional questions, when it is appropriate, to clarify information or request more details.
+    * Smile and be pleasant, not confrontational or defensive.
+    * Be ready to give feedback, and listen for hints that the speaker wants a response.
+    * Watch for nonverbal signals that show comfort, such as smiling, nodding, and respect personal space. Watch also for signals that show frustration such as crossing arms, looking away, and grasping a pen or chair arm tightly.
+    * Take notes if the situation calls for it.
+
+## 1.4 Keeping Records
+### What records should you keep?
+* Keeping detailed and accurate records is one of the most important habit that an entrepreneur can develop. Accurate records help a business owner evaluate whether the business is improving. Records can help identify which products are selling the best, which customers are spending the most, how much income the business has collected, how much money the business has spent, and where it was spent. This is just some of the information that is contained in the business records.
+
+* Almost all records that entrepreneurs should keep are related to one of five business areas:
+
+    * **Income** - A company must be able to see how and when income was received. Income records include customer purchases, loans, grants, gifts, and interest the business has received on its investments. 
+    * **Expenses** - Just like an individual, a business spends money. Expense-related records include the company checkbook, cash register receipts, credit card statements, and invoices from suppliers. 
+    * **Employees** - Employee records are divided into three categories: hiring, payroll, and performance. Employers use employee records to comply with laws and regulations, and to help evaluate an employee's performance. Employee records contain employee information, earnings, training, and evaluations. 
+    * **Inventory** - Inventory is the material a company stocks to use in making its product, or the product itself. For example, Michael's inventory includes computer parts that he has stored and any computers he has finished refurbishing. Inventory-related records include a log of when materials were received and if or when they were used, and records of the cost of the material. 
+    * **Assets** - Just like a personal asset, a business asset is something that is owned by the business and has value, like furniture, machinery, and office equipment. Asset records include equipment serial numbers, when an asset was purchased or sold, and the purchase or sale prices. 
