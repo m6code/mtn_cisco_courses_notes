@@ -134,7 +134,7 @@
     * Take notes if the situation calls for it.
 
 ## 1.4 Keeping Records
-### What records should you keep?
+### 1.4.1 What records should you keep?
 * Keeping detailed and accurate records is one of the most important habit that an entrepreneur can develop. Accurate records help a business owner evaluate whether the business is improving. Records can help identify which products are selling the best, which customers are spending the most, how much income the business has collected, how much money the business has spent, and where it was spent. This is just some of the information that is contained in the business records.
 
 * Almost all records that entrepreneurs should keep are related to one of five business areas:
@@ -144,3 +144,23 @@
     * **Employees** - Employee records are divided into three categories: hiring, payroll, and performance. Employers use employee records to comply with laws and regulations, and to help evaluate an employee's performance. Employee records contain employee information, earnings, training, and evaluations. 
     * **Inventory** - Inventory is the material a company stocks to use in making its product, or the product itself. For example, Michael's inventory includes computer parts that he has stored and any computers he has finished refurbishing. Inventory-related records include a log of when materials were received and if or when they were used, and records of the cost of the material. 
     * **Assets** - Just like a personal asset, a business asset is something that is owned by the business and has value, like furniture, machinery, and office equipment. Asset records include equipment serial numbers, when an asset was purchased or sold, and the purchase or sale prices. 
+
+### 1.4.2 Organizing and Securing Records.
+* A business record can be a physical or electronic file.
+
+## Giving Good Customer Service.
+### 1.5.1 Developing a Customer Service Program
+* The goal in dealing with an angry customer is to keep the situation from becoming an argument between the customer and the company. When dealing with a dissatisfied customer, keep the following in mind:
+
+    * Acknowledge the customer's feelings - Customers not only want their problem solved, they want someone to LISTEN to what they have to say. Phrases like "I understand your frustration," and "I'm sorry you have had a bad experience", let the customer know that you are listening. 
+    * Write down the facts - By writing down the facts of complaints, you can keep yourself and your customers focused on the real issue, and avoid focusing on the emotional aspect of the situation. 
+    * Keep calm - You must remain patient and professional. You should never raise your voice, use abusive language, or become aggressive toward the customer in any way. If you feel your own temper rising, excuse yourself and ask for help. 
+    * Present a solution - Wait until the customer has calmed down and is ready to talk about a solution. A good question to ask is, "What do you believe the company should do?" This moves the customer from the complaint to the solution. Sometimes the solution could take time. If the problem cannot be solved immediately, let the customer know that the problem was understood and what steps will be taken to fix it. Give the customer a timeframe in which to expect an answer to the complaint. 
+
+### 1.5.2 Customer Retention
+* Businesses are not built on a single sale to a single cutomer. They are built on repat business; customers who buy from the company over and over again.
+* Having a reputation for good customer service is one important way a business tries to keep customers coming back.
+* Building a relationship with the customer - Talk to customers frequently, either by telephone, email, or letter. Ask them for feedback. Let them know that the business is interested in their opinion. 
+* Becoming a resource - Offer customers more than just the product. Educate them about the competition and the industry. Show them additional ways that the product can be useful in their business, and give ideas on how to reduce costs or increase their own business. Good suppliers learn about their customers' businesses and what is important to them. 
+* Understand the company's limitations - Sometimes customers ask for more than the company can deliver. Be honest and let the customer know that what they are asking for is outside the company's area of expertise. Refer them to someone who can help them. In this way, the business builds trust by being honest, and becomes a resource for the customer. 
+* Say "thank you" - It seems obvious that a business should thank its customers for their purchases, but these simple words are often overlooked. Letting customers know that they are appreciated is critical in keeping them from turning to the competition. 
