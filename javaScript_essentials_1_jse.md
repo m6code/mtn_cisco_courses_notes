@@ -19,3 +19,8 @@
 - task runners and module bundlers e.g grunt, webpack
 - testing framework e.g mocha, jasmine, jest
 - security analyzers e.g Snyk, RetireJS, or OWASP Dependency Check
+
+## Module 2 - Variables, Data Types, Type Casting and Comments
+* Variables are cointainers which you can store dcertain information/values
+* Variable Shadowing
+* Variable Hosting
