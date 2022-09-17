@@ -81,6 +81,8 @@
 * The `tail` command is used to view the bottom lines of a file.
 * Syntax `tail [OPTION] [FILE]` e.g `tail file.txt`.
 
+**[Getting Help/ Working with Man](https://wiki.gentoo.org/wiki/Man_page/Navigate)**
+
 ### Section 11 - Copying Files
 * The `cp` command is used to copy files. Similar to the mv command, it requires at least two arguments: a source and a destination. 
 * Syntax `cp [OPTION] SOURCE DESTINATION`
