@@ -26,3 +26,23 @@
 
 **Linux History**
 * ![Linux History Map](./ndg_linux_essentials/LEv2_2_3.png)
+
+### 2.4.2 Embedded Systems
+* *embedded systems*  are designed to do a specific task on hardware optimized for only that purpose. 
+* These systems encompass a tremendous diversity of devices that are used today, from cell phones to smart TVs and appliances, to remote monitoring systems for pipelines and factories.
+
+## Chapter 3 - Working in Linux
+### 3.1.1 - The Command Line Interface (CLI) 
+* The command line interface (CLI) is a simple text input system for entering anything from single-word commands to complicated scripts.
+### 3.2 Applications
+The kernel of the operating system is like an air traffic controller at an airport, and the applications are the airplanes under its control. The kernel decides which program gets which blocks of memory, it starts and kills applications, and it handles displaying text or graphics on a monitor
+* Applications make requests to the kernel and in return receive resources, such as memory, CPU, and disk space
+* The kernel also abstracts some complicated details away from the application. For example, the application doesn’t know if a block of disk storage is on a solid-state drive, a spinning metal hard disk, or even a network file share
+* A process is just one task that is loaded and tracked by the kernel. An application may even need multiple processes to function, so the kernel takes care of running the processes, starting and stopping them as requested, and handing out system resources.
+* Linux software generally falls within any of these 3 categories
+  * **Server Software**:  Softwares whose main purpose is to server other computers know as client
+  * **Desktop Software**: Software which the end user can interract with directly.
+  * **Tools**: A loose category of software that exists to make it easier to manage computer systems. Tools can help configure displays, provide a Linux shell that users type commands into, or even more sophisticated tools, called compilers, that convert source code to application programs that the computer can execute
+### 3.2.2 - Server Applications
+#### 3.2.2.1 - Web Server (Apache, NGINX) 
+. A web server hosts content for web pages, which are viewed by a web browser using the HyperText Transfer Protocol (HTTP) or its encrypted flavor, HTTPS. The web page itself can either be static or dynamic.
