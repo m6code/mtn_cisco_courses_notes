@@ -19,9 +19,13 @@
 **Red Hat**: (Fedora, CentOS, Scientific Linux)
 * RPM - Red Hat Package Manager.
 * RHEL - Red Hat Enterprise Linux.
+
 **SUSE**: (OpenSUSE)
+
 **Debian**: (Ubuntu, Linux Mint)
+
 **Android**: 
+
 **Raspbian**:
 
 **Linux History**
@@ -45,4 +49,19 @@ The kernel of the operating system is like an air traffic controller at an airpo
   * **Tools**: A loose category of software that exists to make it easier to manage computer systems. Tools can help configure displays, provide a Linux shell that users type commands into, or even more sophisticated tools, called compilers, that convert source code to application programs that the computer can execute
 ### 3.2.2 - Server Applications
 #### 3.2.2.1 - Web Server (Apache, NGINX) 
-. A web server hosts content for web pages, which are viewed by a web browser using the HyperText Transfer Protocol (HTTP) or its encrypted flavor, HTTPS. The web page itself can either be static or dynamic.
+A web server hosts content for web pages, which are viewed by a web browser using the HyperText Transfer Protocol (HTTP) or its encrypted flavor, HTTPS. The web page itself can either be static or dynamic.
+
+#### 3.2.2.2 Private Cloud Servers (ownCloud, Nextcloud)
+#### 3.2.2.3 Database Servers
+#### 3.2.2.4 Email Servers
+* Mail Transfer Agent (MTA) - Sendmail and Postfix
+* Mail Delivery Agent (MDA) AKA Local Delivery Agent.
+* Post Office Protocol (POP) & Internet Message Access Protocol (IMAP)
+#### 3.2.2.5 File Sharing 
+* **Samba** : Samba allows a Linux machine to look and behave like a Windows machine so that it can share files and participate in a Windows domain.
+* **Netatalk** : project lets a Linux machine perform as an Apple Macintosh file server. The native file sharing protocol for UNIX/Linux is called the Network File System (NFS). NFS is usually part of the kernel which means that a remote file system can be mounted (made accessible) just like a regular disk, making file access transparent to other applications.
+
+### 3.3.1 Shells
+The two main families are the Bourne shell and the C shell. The Bourne shell was named after its creator Stephen Bourne of Bell Labs. The C shell was so named because its syntax borrows heavily from the C language. As both these shells were invented in the 1970s, there are more modern versions, the Bourne Again Shell (Bash) and the tcsh (pronounced as tee-cee-shell). Bash is the default shell on most systems, though tcsh is also typically available.
+
+Programmers have taken favorite features from Bash and tcsh and made other shells, such as the Korn shell (ksh) and the Z shell (zsh). 
