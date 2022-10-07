@@ -65,3 +65,6 @@ A web server hosts content for web pages, which are viewed by a web browser usin
 The two main families are the Bourne shell and the C shell. The Bourne shell was named after its creator Stephen Bourne of Bell Labs. The C shell was so named because its syntax borrows heavily from the C language. As both these shells were invented in the 1970s, there are more modern versions, the Bourne Again Shell (Bash) and the tcsh (pronounced as tee-cee-shell). Bash is the default shell on most systems, though tcsh is also typically available.
 
 Programmers have taken favorite features from Bash and tcsh and made other shells, such as the Korn shell (ksh) and the Z shell (zsh). 
+
+### 3.5 Development Languages
+A computer programmingg langage is just a tool that makes it easier to tell the computer what you want it to do. A library bundles common tasks into a distinct package that can be used by the developer examples includes ImageMagick, OpenSSL and the C Library.
