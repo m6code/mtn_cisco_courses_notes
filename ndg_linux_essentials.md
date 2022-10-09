@@ -117,3 +117,33 @@ function_name () {
 `pwd` : diplays the parth of the current working directory
 `history`: shows the history of commands you have entered so far. to run a command again use `!no` to excute the command e.g `!10` to excute the 10th command in the history
 `alias` : display a list of user configured aliases for commands
+
+## Chapter 6 - Getting Help
+* Man Pages: are used to describe the features of commands.
+  * `man [command]` e.g  `man ls`
+  * `/` to search the man page. After entering the text to search for, hit `Enter` and use `n` and `Shift+N` to navigate.
+  * use `q` to exit the man page.
+  * By default, there are nine sections of man pages:
+      1. General Commands
+      2. System Calls
+      3. Library Calls
+      4. Special Files
+      5. File Formats and Conventions
+      6. Games
+      7. Miscellaneous
+      8. System Administration Commands
+      9. Kernel Routines
+  
+  * `man -f command`: displays a list of manual entries for a command e.g `man -f write`
+    * `man no command`: show the manual entry fo the no. provided. e.g:
+      * `man 2 write` will list the write manual in the second page.
+      * `whatis write` is same as `man -f write` on some linux distros
+
+  * `man -k keyword` : is used to search for manual entry, when you don't know the exact name of the command. e.g :
+    * `man -k copy` will show all the command that has copy in their summary/description.
+    * `apropos copy` is the same as `man -k copy` 
+
+  * `whereis command`: is used to search for the location and man page of a command.
+  * `locate file/folder`: is used to search for the location of a file or directory. use `sudo updatedb`: to update the database of indexed files
+
+* `info command`: similar to man but show a more detailed guide of a command e.g `info ls`
