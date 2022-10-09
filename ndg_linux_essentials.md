@@ -68,3 +68,25 @@ Programmers have taken favorite features from Bash and tcsh and made other shell
 
 ### 3.5 Development Languages
 A computer programmingg langage is just a tool that makes it easier to tell the computer what you want it to do. A library bundles common tasks into a distinct package that can be used by the developer examples includes ImageMagick, OpenSSL and the C Library.
+
+
+## Chapter 4 - Open Source Softwares and Licensing
+### 4.2 Open Source Licensing
+there are 3 components to consider when buying a software
+- **Ownership**: Who owns the intellectual property behind the sofware?
+- **Money Transfer**: How does money change hands, if at all?
+- **Licensing**: What do you get? What can you do with the software? 
+Can you use it on only one computer? 
+Can you give it to someone else?
+
+the **End User License Agreement (EULA)**, is a custom legal document that you must click through, indicating your acceptance, in order to install the software.
+
+the **GNU General Public License version 2 (GPLv2).** This license, among other things, says that the source code must be made available to anyone who asks and that anyone is allowed to make changes. One caveat to this is that if someone makes changes and distributes them, they must put the changes under the same license so that others can benefit.
+GPLv2 also says that no one is allowed to charge for distributing the source code other than the actual costs of doing so (such as copying it to removable media).
+
+**Free and Open Source Software (FOSS)** refers to software where this right has been given up; anyone is allowed to view the source code and redistribute it. Linus Torvalds has done that with Linux
+* Free Software Foundations (FSF)
+  * Copyleft
+  * Tivoization
+* Open Source Initiative (OSI)
+  * Berkely Software Distribution (BSD)
