@@ -90,3 +90,30 @@ GPLv2 also says that no one is allowed to charge for distributing the source cod
   * Tivoization
 * Open Source Initiative (OSI)
   * Berkely Software Distribution (BSD)
+
+## Chapter 5 - Command Line Skills
+### 5.2 - Shell
+The shell is the command line interpreter that translates commands entered by a user into actions to be performed by the operating system. If output is produced by the command, then text is displayed in the terminal. If problems with the command are encountered, an error message is displayed.
+
+### Commands
+* `type [command]`: shows the type of a command e.g `type cd` or `type -a echo `
+* `;` use it to separate a succession of command to be run `ls; cd ..`
+* `which [command]`: shows the location a command is installed/run from
+* Variables [global or local] can only be called within double quotes e.g `echo "The path is $PATH" `
+* `&&` acts a logical AND i.e the next command will be run only if the previous command was true. e.g 
+  * `ls /etc/ppp && echo success` 
+  * `ls /etc/junk && echo success`
+* `||` acts as a logical OR which means the next command will be run depending on if the previous command was false (fails).
+* Functions e.g 
+```bash
+function_name () {
+  commands
+}
+```
+
+### Labs
+`whoami`: displays the user name of the current user
+`uname` : displays information about the current system
+`pwd` : diplays the parth of the current working directory
+`history`: shows the history of commands you have entered so far. to run a command again use `!no` to excute the command e.g `!10` to excute the 10th command in the history
+`alias` : display a list of user configured aliases for commands
